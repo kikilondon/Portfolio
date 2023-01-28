@@ -1,0 +1,180 @@
+*{/*global selector*/
+    box-sizing: border-box;/* setting to size elements easier.*/
+    font-family: Lato, sans-serif;/* font family Lato*/
+    font-weight: bold;
+}
+@media screen and (min-width:800px){/* media query to control the display of elements on the screen*/
+    .img-container{
+
+        display: none;/* the image div won't display when the screen size is more then 800px*/
+    }
+    .img{
+
+        display: none;/* the img won't display when the screen size is more then 800px*/
+    }
+
+}
+@media screen and (max-width:800px){
+td{
+     display:none;/* the columns won't display when the screen size is less then 800px*/
+}
+h1{
+    display: none;/* the title won't display when the screen size is less then 800px*/
+}
+.img-container{/* the image div will display when the screen size is less then 800px*/
+    width: 50vw;
+    height:50vh;
+}
+.img{/* the image div will display when the screen size is less then 800px*/
+width: 100vw;
+height: auto;
+}
+}
+h1{/* title setting*/
+    font-size: 6vw;
+    text-align: center;
+    color: #515660;
+    font-weight: 400;
+  
+}
+#grid_container{
+        
+    display: grid;/*grid display allows flexibility and responsivness */
+    grid-template-columns:repeat(18, 1fr);/*18 column, 1/18 wide*/
+    grid-column-gap:2px;/*gap between columns*/
+    grid-row-gap:2px;/*gap between rows*/
+   
+}
+.element-inner{/* this class styles empty cells*/
+    
+    position: relative;
+    width: 5vw;
+    height: 5vw;
+    text-align: center;
+   
+
+}
+
+.element-inner-a{
+
+    text-align: right;
+    font-size: 18px;
+    color: #4d4f50;
+}
+
+.element-inner-yellow{/*these setting will repeat for each class a part from the color*/
+    
+    position: relative;
+    border: 1px solid #cecece;/*shorthand to set the border in every cell*/
+    width: 5vw;/* unit of measurement for length. 1 vw is equal to 1% of  the viewport's width.*/
+    height: 5vw;
+    text-align: center;/*align text in the center of the div-cell*/
+    background-color: #FDFFC8;/*this is the color for the inner cell*/ 
+
+
+}
+
+
+.element-inner-red{
+    
+    position: relative;
+    border: 1px solid #cecece;
+    width: 5vw;
+    height: 5vw;
+    text-align: center;
+    background-color: #FBC3CA;
+
+}
+
+.element-inner-apricot{
+    position: relative;
+    border: 1px solid #cecece;
+    width: 5vw;
+    height: 5vw;
+    text-align: center;
+    background-color: #FBE0C3;
+
+}
+.element-inner-blue{
+    position: relative;
+    border: 1px solid #cecece;
+   border: 5px;
+    width: 5vw;
+    height: 5vw;
+    text-align: center;
+    background-color: #CED8FE;
+    
+}
+
+.element-inner-purple{
+    position: relative;
+    border: 1px solid #cecece;
+  
+    width: 5vw;
+    height: 5vw;
+    text-align: center;
+    background-color: #D7C3FF;
+}
+
+.element-inner-aqua{
+    position: relative;
+    border: 1px solid #cecece;
+   
+    width: 5vw;
+    height: 5vw;
+    text-align: center;
+    background-color: #CAFFFE;
+    
+}
+
+.element-inner-green{
+    position: relative;
+    border: 1px solid #cecece;
+    
+    width: 5vw;
+    height: 5vw;
+    text-align: center;
+    background-color: #CDFFC2;
+
+}
+
+.element-inner-light-green{
+    position: relative;
+    border: 1px solid #cecece;
+    
+    width: 5vw;
+    height: 5vw;
+    text-align: center;
+    background-color: #CDFFE8;
+
+}
+
+.element-inner-olive{
+    position: relative;
+    border: 1px solid #cecece;
+   
+    width: 5vw;
+    height: 5vw;
+    text-align: center;
+    
+    background-color: #DDEEC2;
+}
+
+.title{/* setting for the inner element number*/
+   
+    font-weight: 400;
+    font-size:1.2vw;
+    width:auto;
+    color:#313639;
+}
+
+.description{/* setting for the element number*/
+font-size: 2vw;
+font-weight: 700;
+width: auto;
+color: #313639;
+
+}
+
+
+

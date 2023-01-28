@@ -1,0 +1,485 @@
+body {
+    background-color: #49496c;/*set a background color for he body*/
+
+}
+
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+
+#nav_subtitle{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: antiquewhite;
+    text-align: center;
+    margin:0px;
+    line-height: 35px;
+   
+}
+@media screen and (max-width: 600px) {/*media query to make the title responsive*/
+    #nav_subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    }
+}
+
+.likeBtn {
+   font-size: 50px;
+
+    cursor: pointer;
+    user-select: none;
+    color: grey;
+    background: none;
+    border: none;
+    padding: 20px 10px;
+    display: flex;
+    margin-right: 25px;
+   
+   
+}
+.fa {
+    font-size: 30px;
+     cursor: pointer;
+     user-select: none;
+     color: grey;
+     padding-top: 20px;
+     padding-right: 20px;
+    
+ }
+
+
+.fa-solid{
+   color:#FF0032 ;
+}
+.link{
+ /* background-color:  antiquewhite;*/
+  color: antiquewhite;
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  /*padding: 5px 10px;
+  border-radius: 5px;*/
+  
+}
+
+
+.cards--container { /*this is the style for the cards*/
+    display: flex;/*display flex allows  child elements to align automatically to columns or rows with auto width and auto height*/
+    flex-direction: row;/*specifis the direction of flexible items, in this case rows*/
+    margin: 0 auto;
+    gap: 25px;
+    flex-wrap: wrap;/*The flex-wrap property specifies whether the flexible items should wrap or not.*/
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 600px) {/*media query to direct row movement when the viewport is less than 600px*/
+    .cards--container {
+        flex-direction: row;
+    }
+}
+
+
+
+.card {
+    background-color: rgb(220, 220, 255);
+    /* width:370px ;*/
+    height: 60vh;
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    flex: 1;
+    flex-basis: 370px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+
+}
+.card:hover {/*The :hover CSS pseudo-class matches when the user interacts with an element with a pointing device, but does not necessarily activate it */
+    /* background-color:rgb(233, 233, 245);*/
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+.card--image1 {
+    width: auto;
+    background-size: cover;/*this set the image as background*/
+    background-position: center;/* set the image on the center*/
+    background-image: url(../images/logo\ kiki2.png);
+    height: 40vh;/*vh is a respondive unit to work with heigth*/
+    border-radius: 10px 10px 0 0;
+    /*aspect-ratio: 1/1;*/
+}
+
+
+.card--image2 {
+    width: auto;
+    background-position: center;
+    background-size: cover;
+
+    background-image: url(https://cdn3.pitchfork.com/longform/728/Wes-Anderson.jpg);
+    height: 40vh;
+    border-radius: 10px 10px 0 0;
+}
+
+.card--image3 {
+    background-image: url(../images/Project-gallery.png);
+    width: auto;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    border-radius: 10px 10px 0 0;
+}
+
+
+.card--image4 {
+    background-image: url(../images/shopping.png);
+    width:auto;
+    background-position: center;
+    background-size: cover;
+    height: 40vh;
+    border-radius: 10px 10px 0 0;
+}
+
+
+
+.card--image5 {
+    background-image: url(../images/caesar.webp);
+    width:auto;
+    background-position: center;
+    background-size: cover;
+    height:40vh;
+    border-radius: 10px 10px 0 0;
+   
+}
+
+.card--image6 {
+    background-image: url(../images/pexels-polina-tankilevitch-3735778.jpg);
+    width: auto;
+    background-position: center;
+    background-size: cover;
+ 
+    height:40vh;
+    border-radius: 10px 10px 0 0;
+    
+    
+}
+
+.card--image7 {
+    background-image: url(../images/feedback.png);
+    width: auto;
+    background-position: center;
+    background-size: cover;
+    height:40vh;
+    border-radius: 10px 10px 0 0;
+    
+    
+}
+
+.card--image8 {
+    background-image: url(../images/temperature.jpeg);
+    width: auto;
+    background-position: center;
+    background-size: cover;
+    height:40vh;
+    border-radius: 10px 10px 0 0;
+    
+    
+}
+
+
+.card--image9 {
+    background-image: url(../images/logo-og.png);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    
+    height:40vh;
+    border-radius: 10px 10px 0 0;
+    
+    
+}
+h1 {
+    font-size: 68px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+  
+    padding-top: 20px;
+    color: antiquewhite;
+
+}
+
+@media screen and (max-width: 600px) {/*media query to make the title responsive*/
+    h1 {
+        font-size: 45px;
+        padding-top: 10px;
+        line-height: 50px;
+    }
+}
+
+h2 {
+
+    /*font-family: 'Cardo', serif;*/
+    font-size: 4vh;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    /*padding-top: 30px;*/
+    color: #272763;
+
+}
+
+.accordion--button {/*this collapse the contents inside each card*/
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(220, 220, 255);
+    color: #272763;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    transition: background 0.2s;
+
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+
+.accordion--button::after {/*this is how the accordion become after the content is collapsed*/
+    content:'\25BE';
+    float: right;
+    transform: scale(1.5);
+
+}
+
+
+/*.accordion--button--active { rgb (188, 188, 242);}*/
+.accordion--button--active::after {
+    content: '\25b4';
+}
+
+.accordion--content {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s;
+    background-color: rgb(220, 220, 255);
+
+    padding: 0 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #272763;
+    line-height: normal;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+#footer {
+
+    text-align: center;
+    color: antiquewhite;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding-top: 60px;
+}
+
+.hyperlinks {
+    text-decoration: none;/* it removes the line under the hyperlink*/
+    color: darkred;
+
+}
+
+.description {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: antiquewhite;
+    text-align: center;
+}
+
+.text-area {/*this is the comment box style*/
+    display: flex;
+    justify-content: center;
+    max-width: 40vw;
+    max-height: 30vh;
+    margin: auto;
+}
+
+#my-text {
+    box-sizing: border-box;/*border-box tells the browser to account for any border and padding in the values you specify for an element's width and height.*/
+    background-color: #ffffff;
+    display: block;/* an element with display block is a  block element fills the entire line, and nothing can be displayed on its left or right side*/
+    width: 100%;
+    resize: none;
+    padding: 20px;
+    border: 2.5px solid;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+    outline: none;
+}
+
+
+
+
+hr{
+color: antiquewhite;
+}
+
+#name {/* this is an ID, it is unique*/
+    background-color: #ffffff;
+    outline: none;
+    border-radius: 5px;/*this makes the corner rounded*/
+    /*border: none;*/
+    width: 20vw;
+    height: 3vh;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.10);/* this is a shadow*/
+    border: none;
+    padding: 10px;/*th epadding is the space between the content and the margin*/
+}
+
+#surname {
+    background-color: #ffffff;
+    outline: none;
+    border-radius: 5px;
+    /*border: none;*/
+    width: 20vw;
+    height: 3vh;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.10);
+    border: none;
+    padding: 10px;
+}
+
+   
+
+
+
+::placeholder {/*this is a placeholder that guide the user to type the information requested*/
+    color: #D3D3D3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+#email {
+    background-color: #ffffff;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    width: 20vw;
+    height: 3vh;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.10);
+    
+
+}
+
+.details{
+    display: flex;/*The flex CSS shorthand property sets how a flex item will grow or shrink to fit the space available in its flex container.*/
+    margin: auto;/*this set automatically the margin of an element. It is use to center the element */
+    justify-content: center;/*this center the content*/
+}
+
+.details * {/* global selector that will set all the elementas with the class"detail" with these styles*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #5E5E5E;
+    outline: none;
+    margin-right: 10px;
+}
+
+.button-container {/*button div*/
+    max-width: fit-content;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  
+
+}
+
+.bt {/*button style*/
+   width: 500px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #39275A;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+    background-color:#ffffff;
+    outline: none;
+    border: none;
+    padding: 10px;
+
+}
+#contact-section{
+
+margin-top: 60px;    
+}
+
+#comment-section{
+
+    margin-bottom: 60px;
+}
+#bt-contact{
+    width: 25vw;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #39275A;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+    background-color:#ffffff;
+    outline: none;
+    border: none;
+    padding: 10px;
+
+}
+
+#bt-comment{
+
+    width: 25vw;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #39275A;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+    background-color:#ffffff;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+
+.savefl{
+   visibility:hidden;
+    /*background-color:  #272763;
+    color: #ffffff;
+    border: none;
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    padding: 10px 20px;
+    height: 5vh;
+    border-radius: 7px 0px;*/
+   
+
+
+
+}
+
+.savefl-box{
+    display:flex;
+    justify-content: space-between;
+   
+}

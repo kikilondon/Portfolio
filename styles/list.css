@@ -1,0 +1,108 @@
+html{/* I set a graphic as background */
+    background-color: #D6E4E5;/* set a background color under the graphic*/
+    background-image: url("../images/background3.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+body {/*set font family, weight and align all the containers in the body as centered*/
+    
+    font-family: Inconsolata, sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+h1 {/* set the style for the title*/
+    font-family: Inconsolata, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-size: 8vh;/* I used vh so the tile will be responsive*/
+    color: #0A2647;
+
+}
+
+.header{/*Style the header*/
+    margin: auto;
+    padding: 0;
+    width: 30%;/*30% of the screen*/
+    margin:auto;/*margin auto center the item in the div*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+    border-radius: 5px;
+    overflow: hidden;/*The overflow property specifies what should happen if content overflows an element's box.
+    source: https://www.w3schools.com/cssref/pr_pos_overflow.php */
+    position: relative;
+    z-index: 0;/* z index specify the order of the stack order of element source: https://www.freecodecamp.org/news/z-index-in-css-what-it-is-and-what-it-does/#:~:text=What%20is%20a%20Z%20Index,%2C%20or%20position%3Afixed%20).*/
+}
+#input[type=text] {/*style the input box*/
+    width: 40%;
+    margin:auto;
+    padding: 10px 10px;
+    border: 0.5px solid black;
+    border-radius:5px;
+    padding-top:10px;
+  }
+
+
+ul {/* stile the ul box*/
+    margin: auto;
+    padding: 0;
+    width: 30%;/* width is 30% of the width of the parent element (container)*/
+    margin:auto;/*margin auto center the item in the div*/
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+    border-radius: 5px;
+    overflow: hidden;/* /*The overflow property specifies what should happen if content overflows an element's box.
+    source: https://www.w3schools.com/cssref/pr_pos_overflow.php */
+    position: relative;
+    z-index: 0;
+}
+
+li {/*style the list */
+    list-style-type: none;/*remove any tipe of list mark*/
+    margin: 10px 5px;
+    background-color: aliceblue;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+    z-index: 0;/*/* z index specify the order of the stack order of element source: https://www.freecodecamp.org/news/z-index-in-css-what-it-is-and-what-it-does/#:~:text=What%20is%20a%20Z%20Index,%2C%20or%20position%3Afixed%20).*/
+    font-family: Inconsolata, sans-serif;
+    font-weight: 300;
+    text-align: center;
+
+}
+li span {/* stile the x span*/
+    /*position at right most of li*/
+    position: absolute;/*position absolute means that span is positioned relative to the parent. If there is not parent, the item will be relative to the body */
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    color: #0A2647;
+    border: 1px solid ;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 20px;
+}
+.checked {/*style the checked class, when an item is marked, a line through is added*/
+    width: auto;
+    text-decoration: line-through;/* source:https://www.w3schools.com/cssref/pr_text_text-decoration.php*/
+    color: rgb(65, 64, 64);
+}
+::placeholder{/*style the placeholder of input*/
+    font-family: Inconsolata, sans-serif;
+    font-weight: 300;
+    font-size: 13;
+}
+#addBtn{/*stile the button*/
+    font-size: 2.5vh;
+    text-align: center;
+    color: #0A2647;
+}

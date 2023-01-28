@@ -1,0 +1,226 @@
+h1{/* title style, it is an H1 so it need to be visible */
+    font-size: 64px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;/* this is the weight of the font, for the title 700 has a good visibility*/
+    text-align: center;/*centered aligned*/
+    color: #39275A;
+}
+
+*,
+*::before *::after {/* the asterisk is a global selector. In this case they are pseudo-elements which allow CSS to insert element in the page without it needing to be in HTML */
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;/*border-box tells the browser to account for any border and padding in the values you specify for an element's width and height. */
+
+}
+
+body {
+    background-color: #F6F0FE;
+}
+
+hr {
+    height: 2px;
+    background-color: #39275A;
+    border: none;/* remove border!!!*/
+
+
+}
+
+#name {/* this is an ID, it is unique*/
+    background-color: #ffffff;
+    outline: none;
+    border-radius: 5px;/*this makes the corner rounded*/
+    /*border: none;*/
+    width: 250px;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.10);/* this is a shadow*/
+    border-color: #39275A;
+    padding: 10px;/*th epadding is the space between the content and the margin*/
+}
+
+#surname {
+    background-color: #ffffff;
+    outline: none;
+    border-radius: 5px;
+    /*border: none;*/
+    width: 250px;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.10);
+    border-color: #39275A;
+    padding: 10px;
+
+
+}
+
+::placeholder {/*this is a placeholder that guide the user to type the information requested*/
+    color: #D3D3D3;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+#email {
+    background-color: #ffffff;
+    outline: none;
+    border-radius: 5px;
+    /* border: none;*/
+    padding: 10px;
+    width: 250px;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.10);
+    border-color: #39275A;
+
+}
+
+.details{
+    display: flex;/*The flex CSS shorthand property sets how a flex item will grow or shrink to fit the space available in its flex container.*/
+    margin: auto;/*this set automatically the margin of an element. It is use to center the element */
+    justify-content: space-evenly;/*this center the content*/
+    max-width: fit-content;
+}
+
+.details * {/* global selector that will set all the elementas with the class"detail" with these styles*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #5E5E5E;
+    outline: none;
+    margin-right: 10px;
+}
+
+
+#my-text {
+    box-sizing: border-box;/*border-box tells the browser to account for any border and padding in the values you specify for an element's width and height.*/
+    background-color: #ffffff;
+    display: block;/* an element with display block is a  block element fills the entire line, and nothing can be displayed on its left or right side*/
+    width: 100%;
+    resize: none;
+    padding: 20px;
+    border: 2.5px solid;
+    border-color: #39275A;
+    border-radius: 5px;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+    outline: none;
+}
+
+#result {
+    width: 100%;
+    text-align: right;
+    margin-top: 15px;
+    color: #5E5E5E;
+
+}
+
+.description {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #39275A;
+    text-align: center;
+}
+
+.radio {/*radio buttons style*/
+    max-width: 300px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+
+}
+
+
+
+.radio * {/*styles to apply to all radio button*/
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #39275A;
+
+
+
+}
+
+.radio1 {
+    max-width: 300px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+
+
+
+}
+
+.radio1 * {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #39275A;
+
+
+}
+
+.checkboxes {/*checkboxes*/
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #39275A;
+    justify-content: center;
+    max-width: fit-content;
+    margin: auto;
+
+}
+
+.checkbox {
+    padding: 10px;
+    margin-right: 5px;
+    margin-left: 30px;
+
+}
+
+.text-area {/*this is the comment box style*/
+    display: flex;
+    justify-content: center;
+    max-width: 50%;
+    margin: auto;
+}
+
+#result {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: #39275A;
+    text-align: right;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    max-width: 50%;
+    margin: auto;
+
+}
+
+.button-container {/*button div*/
+    max-width: fit-content;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  
+
+}
+
+#bt {/*button style*/
+   width: 500px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #fefefe;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+    background-color: #39275A;
+    outline: none;
+    border: none;
+    padding: 10px;
+
+}
+

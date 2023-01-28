@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Customer product feedback form</title><!-- title for browser-->
+        <meta name="description" content="Customer Feedback Form for website"><!--description of the project-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../styles/comment_box.css"><!-- link to css file -->
+        <style>/* internal style sheet*/
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');/* font style and size imported from google font*/
+            </style>
+    </head>
+    <body>
+       <header>
+       <h1>Customer Feedback Form</h1><!-- h1 title -->
+      
+      </header>
+        <br>
+        <form><!-- form element-->
+            <div>
+                <p class="description">Thank you for taking time to provide feedback. We appreciate hearing from you and will review your comments carefully.</p><!--Description of the form -->
+               
+                <br>
+                
+                <hr><!-- horizontal role-->
+                <br>
+                <p class="description">Would you recommend it to your friends and colleagues?</p><!-- paragraph question-->
+                <br>
+                 <div class="radio"><label><!-- div for radio button-->
+                <input type="radio" name="yes-no" value= "Yes">Yes</label><!--radio button-->
+            
+                <label><!-- same syntax for other radio buttons-->
+                <input type="radio" name="yes-no" value="NO">No</label></div><br>
+                <br>
+                <p class="description">Did our product meet your expectations?</p>
+                <br><!--break-->
+                 <div class="radio1"><label>
+                <input type="radio" name="yes-no" value= "Yes">Yes</label>
+                <label>
+                <input type="radio" name="yes-no" value="NO">No</label>
+                </div><br>
+                <br>
+                </div>
+                
+                <p class="description">How satisfied are you with our products overall?</p><!--paragraph question-->
+                <br>
+
+
+                 <div class="checkboxes"><label><input class="checkbox" type="checkbox" name="sat" value="Very satisfied">Very satisfied</label><!--checkboxes!!!-->
+                <br><!--break-->
+                    <label><input class="checkbox" type="checkbox" name="sat" value="Satisfied">Satisfied</label><!--checkboxes!!!-->
+                    <br><!--break-->
+                
+                      <label><input class="checkbox" type="checkbox" name="sat" value="Neutral">Neutral</label><!--checkboxes!!!-->
+                      <br><!--break-->
+                        <label><input class="checkbox" type="checkbox" name="sat" value="Unsatisfied">Unsatisfied</label><!--checkboxes!!!-->
+                        <br><!--break-->
+                          <label><input class="checkbox" type="checkbox" name="sat" value="Very unsatisfied">Very unsatisfied</label><!--checkboxes!!!-->
+                          <br><!--break-->
+                            <label><input class="checkbox" type="checkbox" name="sat" value="N/A">N/A</label></div><!--checkboxes!!!-->
+                <br>
+                <br>
+                <p class="description">Do you have any comment or suggestions to improve our product and service?</p><!--paragraph question-->
+                <div class= "text-area"><!--comment box div-->
+                <label for="my-text"></label>
+                <textarea id="my-text" name="comment" rows="5" placeholder="Type your comment here"></textarea><!--comment box-->
+                </div>
+                <div class="result"><p id="result"></p></div>
+                <br>
+                <p class="description">Please leave your email address if you would like us to contact you regarding any questions and receive our weekly newsletter.</p>
+                <br>
+            <div class="details"><!--div for details boxes-->
+                 <label for="name" id="name-label">
+                    <input id="name" type="text" placeholder="First name" required><!-- box to store first name-->
+                    </label>
+
+                    <label for="surname" id="surname-label">
+                        <input id="surname" type="text" placeholder="Last name" required><!--box to store surname-->
+                        </label>
+                   
+    
+                    <label for="email" id="email-label">
+                        <input name= "email" id="email" type="email" placeholder= "Your email" required><!--box to store email-->
+                        </label></div>
+                        <br>
+                  
+         <hr>
+        <br>
+                  <div class="button-container"><!-- button div to submit and subcribe-->
+                        <button  value="submit" type="submit" id="bt">Submit</button><!--button-->
+                    </div>
+
+        </form><!-- closing form element-->
+    </body>
+</html>

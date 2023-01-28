@@ -1,0 +1,169 @@
+#hero-div{
+  max-width: 100%;
+  height: auto;
+  display:block;
+
+}
+#hero-img{/*set hero image as background*/
+  max-width: 100%;
+ /* background-image: url(https://cdn3.pitchfork.com/longform/728/Wes-Anderson.jpg);
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;*/
+    height: auto;
+    display:block;
+}
+  
+#image{
+  max-width: 100%;/*
+  The max-width CSS property sets the maximum width of an element.
+  It prevents the used value of the width property from becoming larger than the value specified by max-width .*/
+  height: auto;
+  display: block;
+ }
+
+footer{
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 12px;
+    }
+
+h1{
+  font-family: "Staatliches", sans-serif;
+  font-size:80px;
+  color: #C55300;
+  font-kerning: none;/* property controls the usage of the kerning information stored in a font.*/
+  text-align: center;
+ 
+ 
+}
+body{
+background-color: bisque;
+margin:0%;/*Most browsers will display the <body> element with margins*/
+
+
+}
+figure{/*this is a sort of container for images*/
+  margin-left:0%;
+  margin-right:0%;
+}
+main{
+  margin-left: 0%;
+  margin-right: 0%;
+}
+h3{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 24px;
+  color: #212427;
+  
+}
+
+h2{
+color: #212427;
+font-family: 'Cormorant Garamond', serif;
+font-size: 32px;
+}
+li{
+font-family: 'Lato', sans-serif;
+color: #3F3F3F;
+font-size: 16px;
+text-align: left;
+}
+
+
+p{
+font-family: 'Lato', sans-serif;
+color: #3F3F3F;
+font-size: 12px;
+text-align: left;
+}
+.intro{
+    margin-left: 5%;
+    margin-right: 5%;
+
+
+}
+.intro-p{font-family: 'Lato', sans-serif;
+  color: #3F3F3F;
+  font-size: 16px;
+  text-align: left;
+
+}
+#tribute-link{
+  color: #C55300;
+  font-family:'Lato', sans-serif;
+  text-decoration: none;
+ 
+}
+ul{
+  padding-left: 20px;
+
+}
+#footer{
+  text-align: center;
+}
+#quote{
+  color: #3F3F3F;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: bold;
+
+}
+#img-movie{
+  max-width: 100%;
+    height: auto;
+    display:block;
+
+
+}
+#movie-list{
+
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#img-quote{
+  border: 5px solid;
+  border-color: #C55300;
+  border-radius: 50%;
+ width: 290px;
+
+}
+#quote-section{/* this is the box in which the quote is*/
+  display:flex;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#quote-box{
+
+  padding-left: 40px;
+}
+ul{
+list-style-type: square;/*this is a property that set all the llist style properties at once. I chose a square marker */
+
+}
+li::marker{/* this styles only the markers inside the list*/
+  color: #C55300;
+  font-size: 25px;
+}
+#pquote{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 22px;
+  font-style: italic;
+  padding-bottom: 20px;
+  align-items: center;
+ 
+
+}
+.container {
+  font-family:'Lato', sans-serif;
+   color: #3F3F3F; 
+   font-size: 14px;
+
+}
+
+

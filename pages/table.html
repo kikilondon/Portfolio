@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic table of elements</title><!--title -->
+    <link rel="stylesheet" href="../styles/table.css"><!--link to css file-->
+    <style> @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');/*url of Lato font from google*/
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap'); 
+    
+    </style>
+    <!---->
+
+</head>
+<body>
+    <header><!-- semantic elements-->
+
+        <nav></nav><!-- semantic elements-->
+    </header><!-- semantic elements-->
+    <main><!--semantic elements-->
+        <div class ="img-container">
+        <picture><!---->
+            <img class="img" src="../images/periodic_table.png" alt="periodic table of elements"><!-- this is the image that will display when the screen will be 800 px wide-->
+    </picture>
+</div>
+        <h1>PERIODIC TABLE OF ELEMENTS</h1><!-- h1 title-->
+<table id="grid_container"><!--this is the table container which will be disply as grid-->
+    <tbody><!-- body of the table-->
+        <tr><!-- row-->
+    <td class="hydrogen"><!--column-->
+       <div class="element-inner-yellow"><!-- this is the box inside each table cell, the class assigned is different for each color-->
+        <div class="title">1</div><!--number of element-->
+        <div class="description">H</div><!--name of element-->
+    </div><!--closure-->
+</td>
+<td>&nbsp;</td><!--this is an empty cell-->
+<td rowspan="1" colspan="15"><div></div></td><!-- this is a long empty cell that takes 15 columns and is set on the first row-->
+<td class="helium"><!-- I initially assigned a class for each element-->
+    <div class="element-inner-apricot">
+        <div class="title">2</div>
+        <div class="description">He</div>
+    </div>
+</td>
+</tr>
+<tr>
+<td class="lithium">
+    <div class="element-inner-red">
+        <div class="title">3</div>
+        <div class="description">Li</div>
+    </div>
+</td>
+<td class="beryllium">
+    <div class="element-inner-purple">
+        <div class="title">4</div>
+        <div class="description">Be</div>
+    </div>
+</td>
+<td rowspan="2" colspan="10"><div></div></td>
+
+<td class="boron">
+    <div class="element-inner-olive">
+        <div class="title">5</div>
+        <div class="description">B</div>
+        
+    </div>
+</td>
+<td class="carbon">
+    <div class="element-inner-yellow">
+        <div class="title">6</div>
+        <div class="description">C</div>
+    </div>
+</td>
+<td class="nitrogen">
+    <div class="element-inner-yellow">
+        <div class="title">7</div>
+        <div class="description">N</div>
+    </div>
+</td>
+<td class="oxygen">
+    <div class="element-inner-yellow">
+        <div class="title">8</div>
+        <div class="description">O</div>
+    </div>
+</td>
+<td class="flourine">
+    <div class="element-inner-yellow">
+        <div class="title">9</div>
+        <div class="description">F</div>
+    </div>
+</td>
+<td class="neon">
+    <div class="element-inner-apricot">
+        <div class="title">10</div>
+        <div class="description">Ne</div>
+    </div>
+</td>
+</tr>
+<tr>
+<td class="sodium">
+    <div class="element-inner-red">
+        <div class="title">11</div>
+        <div class="description">Na</div>
+    </div>
+</td>
+<td class="magnesium">
+    <div class="element-inner-purple">
+        <div class="title">12</div>
+        <div class="description">Mg</div>
+        </div>
+    </td>
+<td class="aluminium">
+    <div class="element-inner-green">
+        <div class="title">13</div>
+        <div class="description">Al</div>
+    </div>
+</td>
+<td class="silicon">
+    <div class="element-inner-olive">
+        <div class="title">14</div>
+        <div class="description">Si</div>
+    </div>
+</td>
+<td class="phosphorus">
+    <div class="element-inner-yellow">
+        <div class="title">15</div>
+        <div class="description">P</div>
+    </div>
+</td>
+<td class="sulfur">
+    <div class="element-inner-yellow">
+        <div class="title">16</div>
+        <div class="description">S</div>
+    </div>
+</td>
+<td class="chlorine">
+    <div class="element-inner-yellow">
+        <div class="title">17</div>
+        <div class="description">Cl</div>
+    </div>
+</td>
+<td class="argon">
+    <div class="element-inner-apricot">
+        <div class="title">18</div>
+        <div class="description">Ar</div>
+    </div>
+</td>
+</tr>
+<tr>
+<td class="potassium">
+    <div class="element-inner-red">
+        <div class="title">19</div>
+        <div class="description">K</div>
+    </div>
+</td>
+<td class="calcium">
+    <div class="element-inner-purple">
+        <div class="title">20</div>
+        <div class="description">Ca</div>
+    </div>
+</td>
+<td class="scandium">
+    <div class="element-inner-blue">
+        <div class="title">21</div>
+        <div class="description">Sc</div>
+    </div>
+</td>
+<td class="titanium">
+    <div class="element-inner-blue">
+        <div class="title">22</div>
+        <div class="description">Ti</div>
+    </div>
+</td>
+<td class="vanadium">
+    <div class="element-inner-blue">
+        <div class="title">23</div>
+        <div class="description">V</div>
+        
+    </div>
+</td>
+<td class="chromium">
+    <div class="element-inner-blue">
+        <div class="title">24</div>
+        <div class="description">Cr</div>
+    </div>
+</td>
+<td class="manganese">
+    <div class="element-inner-blue">
+        <div class="title">25</div>
+        <div class="description">Mn</div>
+    </div>
+</td>
+<td class="iron">
+    <div class="element-inner-blue">
+        <div class="title">26</div>
+        <div class="description">Fe</div>
+    </div>
+</td>
+<td class="cobalt">
+    <div class="element-inner-blue">
+        <div class="title">27</div>
+        <div class="description">Co</div>
+    </div>
+</td>
+<td class="nickel">
+    <div class="element-inner-blue">
+        <div class="title">28</div>
+        <div class="description">Ni</div>
+    </div>
+</td>
+<td class="copper">
+    <div class="element-inner-blue">
+        <div class="title">29</div>
+        <div class="description">Cu</div>
+    </div>
+</td>
+<td class="zinc">
+    <div class="element-inner-blue">
+        <div class="title">30</div>
+        <div class="description">Zn</div>
+    </div>
+</td>
+<td class="gallium">
+    <div class="element-inner-green">
+        <div class="title">31</div>
+        <div class="description">Ga</div>
+    </div>
+</td>
+<td class="germanium">
+    <div class="element-inner-olive">
+        <div class="title">32</div>
+        <div class="description">Ge</div>
+    </div>
+</td>
+<td class="arsenic">
+    <div class="element-inner-olive">
+        <div class="title">33</div>
+        <div class="description">As</div>
+    </div>
+</td>
+<td class="selenium">
+    <div class="element-inner-yellow">
+        <div class="title">34</div>
+        <div class="description">Se</div>
+    </div>
+</td>
+<td class="bromine">
+    <div class="element-inner-yellow">
+        <div class="title">35</div>
+        <div class="description">Br</div>
+    </div>
+</td>
+<td class="krypton">
+    <div class="element-inner-apricot">
+        <div class="title">36</div>
+        <div class="description">Kr</div>
+    </div>
+</td>
+</tr>
+<tr>
+<td class="rubidium">
+    <div class="element-inner-red">
+        <div class="title">37</div>
+        <div class="description">Rb</div>
+    </div>
+</td>
+<td class="strontium">
+    <div class="element-inner-purple">
+        <div class="title">38</div>
+        <div class="description">Sr</div>
+    </div>
+</td>
+<td class="yttrium">
+    <div class="element-inner-blue">
+        <div class="title">39</div>
+        <div class="description">Y</div>
+    </div>
+</td>
+<td class="zirconium">
+    <div class="element-inner-blue">
+        <div class="title">40</div>
+        <div class="description">Zr</div>
+    </div>
+</td>
+<td class="niobium">
+    <div class="element-inner-blue">
+        <div class="title">41</div>
+        <div class="description">Nb</div>
+    </div>
+</td>
+<td class="molybdenum">
+    <div class="element-inner-blue">
+        <div class="title">42</div>
+        <div class="description">Mo</div>
+    </div>
+</td>
+<td class="technetium">
+    <div class="element-inner-blue">
+        <div class="title">43</div>
+        <div class="description">Tc</div>
+    </div>
+</td>
+<td class="ruthenium">
+    <div class="element-inner-blue">
+        <div class="title">44</div>
+        <div class="description">Ru</div>
+    </div>
+</td>
+<td class="rhodium">
+    <div class="element-inner-blue">
+        <div class="title">45</div>
+        <div class="description">Rh</div>
+    </div>
+</td>
+<td class="palladium">
+    <div class="element-inner-blue">
+        <div class="title">46</div>
+        <div class="description">Pd</div>
+    </div>
+</td>
+<td class="silver">
+    <div class="element-inner-blue">
+        <div class="title">47</div>
+        <div class="description">Ag</div>
+    </div>
+</td>
+<td class="cadmium">
+    <div class="element-inner-blue">
+        <div class="title">48</div>
+        <div class="description">Cad</div>
+    </div>
+</td>
+<td class="indium">
+    <div class="element-inner-green">
+        <div class="title">49</div>
+        <div class="description">In</div>
+    </div>
+</td>
+<td class="tin">
+    <div class="element-inner-green">
+        <div class="title">50</div>
+        <div class="description">Sn</div>
+    </div>
+</td>
+<td class="antimony">
+    <div class="element-inner-olive">
+        <div class="title">51</div>
+        <div class="description">Sb</div>
+    </div>
+</td>
+<td class="tellurium">
+    <div class="element-inner-olive">
+        <div class="title">52</div>
+        <div class="description">Te</div>
+        
+    </div>
+</td>
+<td class="iodine">
+    <div class="element-inner-yellow">
+        <div class="title">53</div>
+        <div class="description">I</div>
+    </div>
+</td>
+<td class="xenon">
+    <div class="element-inner-apricot">
+        <div class="title">54</div>
+        <div class="description">Xe</div>
+    </div>
+</td>
+</tr>
+<tr>
+  <td class="cesium">
+    <div class="element-inner-red">
+        <div class="title">55</div>
+        <div class="description">Cs</div>
+    </div>
+</td>
+<td class="barium">
+    <div class="element-inner-purple">
+        <div class="title">56</div>
+        <div class="description">Ba</div>
+    </div>
+</td>
+<td>
+    <div class="element-inner"><!-- cell without border, only with asterisk content-->
+        <div class="title"></div>
+        <div class="description">*</div>
+    </div>
+</td>
+<!--<td class="space" style="border:none" >
+   <div class="title"><p class="par">*</p></div>
+  
+</td>-->
+<td class="hafnium">
+    <div class="element-inner-blue">
+        <div class="title">72</div>
+        <div class="description">Hf</div>
+    </div>
+</td>
+<td class="tantalum">
+    <div class="element-inner-blue">
+        <div class="title">73</div>
+        <div class="description">Ta</div>
+    </div>
+</td>
+<td class="tungsten">
+    <div class="element-inner-blue">
+        <div class="title">74</div>
+        <div class="description">W</div>
+    </div>
+</td>
+<td class="rhenium">
+    <div class="element-inner-blue">
+        <div class="title">75</div>
+        <div class="description">Re</div>
+    </div>
+</td>
+<td class="osmium">
+    <div class="element-inner-blue">
+        <div class="title">76</div>
+        <div class="description">Os</div>
+    </div>
+</td>
+<td class="iridium">
+    <div class="element-inner-blue">
+        <div class="title">77</div>
+        <div class="description">Ir</div>
+    </div>
+</td>
+<td class="platinum">
+    <div class="element-inner-blue">
+        <div class="title">78</div>
+        <div class="description">Pt</div>
+    </div>
+</td>
+<td class="gold">
+    <div class="element-inner-blue">
+        <div class="title">79</div>
+        <div class="description">Au</div>
+    </div>
+</td>
+<td class="mercury">
+    <div class="element-inner-blue">
+        <div class="title">80</div>
+        <div class="description">Hg</div>
+    </div>
+</td>
+<td class="thallium">
+    <div class="element-inner-green">
+        <div class="title">81</div>
+        <div class="description">Ti</div>
+    </div>
+</td>
+<td class="lead">
+    <div class="element-inner-green">
+        <div class="title">82</div>
+        <div class="description">Pb</div>
+    </div>
+</td>
+<td class="bismuth">
+    <div class="element-inner-green">
+        <div class="title">83</div>
+        <div class="description">Bi</div>
+        
+    </div>
+</td>
+<td class="polonium">
+    <div class="element-inner-olive">
+        <div class="title">84</div>
+        <div class="description">Po</div>
+    </div>
+</td>
+<td class="astatine">
+    <div class="element-inner-yellow">
+        <div class="title">85</div>
+        <div class="description">At</div>
+    </div>
+</td>
+<td class="radon">
+    <div class="element-inner-apricot">
+        <div class="title">86</div>
+        <div class="description">Rn</div>
+        </div>
+    </td>
+</tr>
+<tr>
+<td class="francium">
+    <div class="element-inner-red">
+        <div class="title">87</div>
+        <div class="description">Fr</div>
+    </div>
+</td>
+<td class="radium">
+    <div class="element-inner-purple">
+        <div class="title">88</div>
+        <div class="description">Ra</div>
+
+    </div>
+</td>
+<td>
+    <div class="element-inner"><!-- empty cell with two asterisks-->
+        <div class="title"></div>
+        <div class="description">**</div>
+    </div>
+</td>
+<td class="rutherfordium">
+    <div class="element-inner-blue">
+        <div class="title">104</div>
+        <div class="description">Rf</div>
+    </div>
+</td>
+<td class="dubnium">
+    <div class="element-inner-blue">
+        <div class="title">105</div>
+        <div class="description">Db</div>
+    </div>
+</td>
+<td class="seaborgium">
+    <div class="element-inner-blue">
+        <div class="title">106</div>
+        <div class="description">Sg</div>
+    </div>
+</td>
+<td class="bohrium">
+    <div class="element-inner-blue">
+        <div class="title">107</div>
+        <div class="description">Bh</div>
+    </div>
+</td>
+<td class="hassium">
+    <div class="element-inner-blue">
+        <div class="title">108</div>
+        <div class="description">Hs</div>
+    </div>
+</td>
+<td class="meitnerium">
+    <div class="element-inner-blue">
+        <div class="title">109</div>
+        <div class="description">Mt</div>
+    </div>
+</td>
+<td class="darmstadtium">
+    <div class="element-inner-blue">
+        <div class="title">110</div>
+        <div class="description">Ds</div>
+    </div>
+</td>
+<td class="roentgenium">
+    <div class="element-inner-blue">
+        <div class="title">111</div>
+        <div class="description">Rg</div>
+    </div>
+</td>
+<td class="copernicium">
+    <div class="element-inner-blue">
+        <div class="title">112</div>
+        <div class="description">Cn</div>
+    </div>
+</td>
+<td class="nihonium">
+    <div class="element-inner-green">
+        <div class="title">113</div>
+        <div class="description">Nh</div>
+    </div>
+</td>
+<td class="flerovium">
+    <div class="element-inner-green">
+        <div class="title">114</div>
+        <div class="description">Fl</div>
+    </div>
+</td>
+<td class="moscovium">
+    <div class="element-inner-green">
+        <div class="title">115</div>
+        <div class="description">Mc</div>
+    </div>
+</td>
+<td class="livermorium">
+    <div class="element-inner-green">
+        <div class="title">116</div>
+        <div class="description">Lv</div>
+    </div>
+</td>
+<td class="tennessine">
+    <div class="element-inner-yellow">
+        <div class="title">117</div>
+        <div class="description">Ts</div>
+    </div>
+</td>
+<td class="oganesson">
+    <div class="element-inner-apricot">
+        <div class="title">118</div>
+        <div class="description">Og</div>
+    </div>
+</td>
+
+</tr>
+<tr>
+
+<td class="element"></td>
+<td class="element"></td>
+<td>
+    <div class="element-inner-a">
+    <div class="title"></div>
+    <div class="description">*</div>
+</div>
+</td>
+<td class="lanthanum">
+    <div class="element-inner-aqua">
+        <div class="title">57</div>
+        <div class="description">La</div>
+    </div>
+</td>
+<td class="cerium">
+    <div class="element-inner-aqua">
+        <div class="title">58</div>
+        <div class="description">Ce</div>
+    </div>
+</td>
+<td class="Praseodymium">
+    <div class="element-inner-aqua">
+        <div class="title">59</div>
+        <div class="description">Pr</div>
+    </div>
+</td>
+<td class="Neodymium">
+    <div class="element-inner-aqua">
+        <div class="title">60</div>
+        <div class="description">Nd</div>
+    </div>
+</td>
+<td class="Promethium">
+    <div class="element-inner-aqua">
+        <div class="title">61</div>
+        <div class="description">Pm</div>
+    </div>
+</td>
+<td class="Samarium">
+    <div class="element-inner-aqua">
+        <div class="title">62</div>
+        <div class="description">Sm</div>
+    </div>
+</td>
+<td class="Europium">
+    <div class="element-inner-aqua">
+        <div class="title">63</div>
+        <div class="description">Eu</div>
+    </div>
+</td>
+<td class="Gadolinium">
+    <div class="element-inner-aqua">
+        <div class="title">64</div>
+        <div class="description">Gd</div>
+    </div>
+</td>
+<td class="Terbium">
+    <div class="element-inner-aqua">
+        <div class="title">65</div>
+        <div class="description">Tb</div>
+    </div>
+</td>
+<td class="Dysprosium">
+    <div class="element-inner-aqua">
+        <div class="title">66</div>
+        <div class="description">Dy</div>
+    </div>
+</td>
+<td class="Holmium">
+    <div class="element-inner-aqua">
+        <div class="title">67</div>
+        <div class="description">Ho</div>
+    </div>
+</td>
+<td class="Erbium">
+    <div class="element-inner-aqua">
+        <div class="title">68</div>
+        <div class="description">Er</div>
+    </div>
+</td>
+<td class="Thulium">
+    <div class="element-inner-aqua">
+        <div class="title">69</div>
+        <div class="description">Tm</div>
+    </div>
+</td>
+<td class="Ytterbium">
+    <div class="element-inner-aqua">
+        <div class="title">70</div>
+        <div class="description">Yb</div>
+    </div>
+</td>
+
+<td class="Lutetium">
+    <div class="element-inner-aqua">
+        <div class="title">71</div>
+        <div class="description">Lu</div>
+    </div>
+ </td>
+</tr>
+<tr>
+<td class="element"></td>
+<td class="element"></td>
+<td>
+    <div class="element-inner-a">
+    <div class="title"></div>
+    <div class="description">**</div>
+</div>
+</td>
+<td class="Actinium">
+    <div class="element-inner-light-green">
+        <div class="title">89</div>
+        <div class="description">Ac</div>
+    </div>
+</td>
+
+<td class="Thorium">
+    <div class="element-inner-light-green">
+        <div class="title">90</div>
+        <div class="description">Th</div>
+    </div>
+</td>
+<td class="Protactinium">
+    <div class="element-inner-light-green">
+        <div class="title">91</div>
+        <div class="description">Pa</div>
+    </div>
+</td>
+<td class="Uranium">
+    <div class="element-inner-light-green">
+        <div class="title">92</div>
+        <div class="description">U</div>
+    </div>
+</td>
+<td class="Neptunium">
+    <div class="element-inner-light-green">
+        <div class="title">93</div>
+        <div class="description">Np</div>
+    </div>
+</td>
+<td class="Plutonium">
+    <div class="element-inner-light-green">
+        <div class="title">94</div>
+        <div class="description">Pu</div>
+    </div>
+</td>
+<td class="Americium">
+    <div class="element-inner-light-green">
+        <div class="title">95</div>
+        <div class="description">Am</div>
+    </div>
+</td>
+<td class="Curium">
+    <div class="element-inner-light-green">
+        <div class="title">96</div>
+        <div class="description">Cm</div>
+    </div>
+</td>
+<td class="Berkelium">
+    <div class="element-inner-light-green">
+        <div class="title">97</div>
+        <div class="description">Bk</div>
+    </div>
+</td>
+<td class="Californium">
+    <div class="element-inner-light-green">
+        <div class="title">98</div>
+        <div class="description">Cf</div>
+    </div>
+</td>
+<td class="Einsteinium">
+    <div class="element-inner-light-green">
+        <div class="title">99</div>
+        <div class="description">Es</div>
+    </div>
+</td>
+<td class="Fermium">
+    <div class="element-inner-light-green">
+        <div class="title">100</div>
+        <div class="description">Fm</div>
+    </div>
+</td>
+<td class="Mendelevium">
+    <div class="element-inner-light-green">
+        <div class="title">101</div>
+        <div class="description">Md</div>
+    </div>
+    </td>
+<td class="Nobelium">
+        <div class="element-inner-light-green">
+            <div class="title">102</div>
+            <div class="description">No</div>
+        </div>
+</td>
+<td class="Lawrencium">
+    <div class="element-inner-light-green">
+        <div class="title">103</div>
+        <div class="description">Lr</div>
+    </div>
+</td><!--closure-->
+</tr><!--closure-->
+</tbody><!--closure-->
+</table><!--closure-->
+
+    </main><!--closure-->
+
+    
+</body><!--closure-->
+</html><!--closure-->

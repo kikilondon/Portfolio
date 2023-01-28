@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shopping List</title>
+     
+
+        <!-- Link Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;600&display=swap" rel="stylesheet">
+        <!--<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">-->
+        <!-- External CSS link-->
+        <link rel="stylesheet" href="../styles/list.css">
+    </head>
+
+    <body onload="buildList()"><!--call buildlist function to the body, so it will be always displayed-->
+        <div class="container"><!--this is he cointainer in which the list will be stored-->
+            <h1>Shopping List</h1><!--title-->
+
+            <div class="header"><!--this is the container for the input -->
+                <input type="text" id="input" placeholder="Item"><!--input with placeholder-->
+                <span onclick="updateList()" id="addBtn">Add Item</span><!--this is a span, that in this case it is used to contain a button. When the button is trigged the function 
+                is trigged-->
+            </div>
+            <br>
+            
+            <ul id="itemList"> </ul><!--this is the list which store all the grocery item-->
+        </div>
+
+        <script src="../script/list.js"></script><!-- link to javascript file-->
+    </body>
+</html>
