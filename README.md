@@ -2,7 +2,7 @@
 <h2>Portfolio<h2>
 
 <h3>Description<h3>
-<h4>This website is a gallery of projects. The projects are displayed in cards; each card has a dropdown menu with a description of the project and a link that takes you to the live project or to the files used to create it, on this GitHub profile. The user can like the project, by clicking the heart button on the top right corner of each card. The gallery is totally responsive.<h4>
+<h4>This website is a gallery of projects. The projects are displayed in cards; each card has a dropdown menu with a description of the project, and a link that takes you to the live project or to the files used to create it, on this GitHub profile. The user can like the project, by clicking the heart button on the top right corner of each card. The gallery is totally responsive.<h4>
 
 <h3>Installation<h3>
 <h4>Click the green "Code" button, on the right top corner of the repository page and select "download Zip".
