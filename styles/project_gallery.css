@@ -106,7 +106,7 @@ main {
     transition: all 1s ease;
 }
 
-.card--image1 {
+#image1 {
     width: auto;
     background-size: cover;/*this set the image as background*/
     background-position: center;/* set the image on the center*/
@@ -116,8 +116,7 @@ main {
     /*aspect-ratio: 1/1;*/
 }
 
-
-.card--image2 {
+#image2 {
     width: auto;
     background-position: center;
     background-size: cover;
@@ -127,7 +126,7 @@ main {
     border-radius: 10px 10px 0 0;
 }
 
-.card--image3 {
+#image3 {
     background-image: url(../images/Project-gallery.png);
     width: auto;
     background-position: center;
@@ -137,7 +136,7 @@ main {
 }
 
 
-.card--image4 {
+#image4 {
     background-image: url(../images/shopping.png);
     width:auto;
     background-position: center;
@@ -148,7 +147,7 @@ main {
 
 
 
-.card--image5 {
+#image5 {
     background-image: url(../images/caesar.webp);
     width:auto;
     background-position: center;
@@ -158,7 +157,7 @@ main {
    
 }
 
-.card--image6 {
+#image6 {
     background-image: url(../images/pexels-polina-tankilevitch-3735778.jpg);
     width: auto;
     background-position: center;
@@ -170,7 +169,7 @@ main {
     
 }
 
-.card--image7 {
+#image7 {
     background-image: url(../images/feedback.png);
     width: auto;
     background-position: center;
@@ -181,7 +180,7 @@ main {
     
 }
 
-.card--image8 {
+#image8 {
     background-image: url(../images/temperature.jpeg);
     width: auto;
     background-position: center;
@@ -192,8 +191,7 @@ main {
     
 }
 
-
-.card--image9 {
+#image9 {
     background-image: url(../images/logo-og.png);
     width: 100%;
     background-position: center;
