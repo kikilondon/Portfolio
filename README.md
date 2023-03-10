@@ -1,6 +1,5 @@
-# finalCapstone
 <h2>Portfolio<h2>
- Portfolio live:  https://kikilondon.github.io/Portfolio/
+<h3>Portfolio live:  https://kikilondon.github.io/Portfolio/<h3>
 <h3>Description<h3>
 <h4>This website is a gallery of projects. The projects are displayed in cards; each card has a dropdown menu with a description , and a link that takes you to the live project or to the files used to create it, on this GitHub profile. The user can like the project, by clicking the heart button on the top right corner of each card. The gallery is totally responsive.<h4>
 
